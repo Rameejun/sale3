@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{%  block content1 %}
+<h1>Ramee</h1>
+<table>
+    <tr>
+    {% for i in a1 %}
+        <td>
+            {{i.itemname}}
+            {{i.day}}
+        </td>
+
+    {% endfor %}
+    </tr>
+</table>
+{%  endblock %}
